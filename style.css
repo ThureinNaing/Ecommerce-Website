@@ -417,6 +417,16 @@ h6{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .right{
+        justify-content: center;
+        align-items: center;
+        margin-left:-60px ;
+        z-index: 1000;
+
     }
     .nav{display: none;}
     .nav2{display: block}
