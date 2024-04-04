@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "i Phone-15 Pro Max (Dual Sim) 256Gb",
+        "storage":"256Gb",
+        "price": 1390,
+        
+        "image": "images/1.webp"
+    },
+    {
+        "id": 2,
+        "name": "i Phone-15 Pro Max (E Sim) 512Gb",
+        "price": 1250,
+        "image": "images/IMG_6630.WEBP"
+    },
+    {
+        "id": 3,
+        "name": "i Phone-15 Pro (Dual Sim) 512Gb",
+        "price": 1150,
+        "image": "images/IMG_6635.WEBP"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "i Phone-15 Pro (eSim) 256Gb",
+        "price": 1100,
+        "image": "images/IMG_6634.WEBP"
+    },
+    {
+        "id": 5,
+        "name": "i Phone-15 Plus (eSim) 256Gb",
+        "price": 1000,
+        "image": "images/iPhone15_eSim_PhysicalSim_Blue.webp"
+    },
+    {
+        "id": 6,
+        "name": "i Phone-15 (eSim) 256Gb",
+        "price": 880,
+        "image": "images/iPhone15Plus_eSim_PhysicalSim_Pink.webp"
+    },
+    {
+        "id": 7,
+        "name": "i Phone-14 Plus 512Gb",
+        "price": 850,
+        "image": "images/IMG_6645.webp"
+    },
+    {
+        "id": 8,
+        "name": "i Phone-13 256Gb",
+        "price": 640,
+        "image": "images/IMG_6651.WEBP"
+    }
+]

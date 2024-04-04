@@ -1,0 +1,40 @@
+[
+    {
+        "id": 27,
+        "name": "AirPods Pro(2<sup>nd</sup> Generation) USB-C",
+        "storage":"256Gb",
+        "price": 245,
+        
+        "image": "images/27_airpodpro.WEBP"
+    },
+    {
+        "id": 28,
+        "name": "AirPods Pro(2<sup>nd</sup> Generation) ",
+        "price": 230,
+        "image": "images/28_airpodpro.WEBP"
+    },
+    {
+        "id": 29,
+        "name": "AirPods 3 with MagSafe Charging Case",
+        "price": 180,
+        "image": "images/29_airpod3.WEBP"
+    },
+    {
+        "id": 30,
+        "name": "AirPods 3 with Lighting Charging Case",
+        "price": 170,
+        "image": "images/29_airpod3.WEBP"
+    },
+    {
+        "id": 31,
+        "name": "AirPods 2 (Non-Wireless)",
+        "price": 115,
+        "image": "images/31_airpod2.WEBP"
+    },
+    {
+        "id": 32,
+        "name": "AirPod Max",
+        "price": 530,
+        "image": "images/32_airpodmax.WEBP"
+    }
+]

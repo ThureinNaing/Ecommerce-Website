@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+<link rel="manifest" href="Images/site.webmanifest">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Shopping</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="user-select-none " id="homePage">
+    <!-- Start Coding Here-->
+    <!-- Nav Bar Section-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm  nav">
+      <div class="container-fluid">
+        <div class="navbar-brand " href="#">
+          <img class="photo" src="images/Apple3 logo.png" height="80px">
+        </div>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse mx-3" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2 fw-normal fs-5" >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-2 fw-normal fs-5">
+              <a class="nav-link" href="catagory.html"> Category</a>
+            </li>
+            <li class="nav-item mx-2 fw-normal fs-5">
+              <a class="nav-link" href="product.html"> Product</a>
+            </li>
+            <li class="nav-item mx-2 fw-normal fs-5">
+              <a class="nav-link" href="contact.html"> Contact</a>
+            </li>
+          </ul>2
+          </div>
+          
+          <div class="d-none d-lg-block ">
+              <form action="order.html" class="d-flex" role="search">
+                  <input class="form-control search-width text-muted search me-3"  type="search" placeholder="Search Something..." aria-label="Search">
+                  <button class="btn btn-white   search-btn text-white" type="submit">Search</button>
+                </form>
+          </div>
+
+      </div>
+    </nav>
+      <!-- /Nav Bar Section-->
+
+      <!-- Mobile view for nav hide scroll down -->
+      <nav class="navbar navbar-dark bg-dark  nav2 ">
+        <div class="container-fluid">
+          <a class="navbar-brand " href="#"><img class="photo" src="images/Apple3 logo.png" height="80px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Our Shop</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link "  href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="catagory.html">Category</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link "  href="product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3 " role="search">
+                <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-white search-btn text-white" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- /Mobile view for nav hide scroll down -->
+      
+      <!-- Contact Section-->
+      <div class="container mt-5">
+        <br/><br/>
+        <div class="row">
+            <div class="col-md-6 p-3">
+                <div class="rounded-3 p-3 shadow">
+                    <form action="" class="row g-3">
+                        <div class="col-md-12 ">
+                            <label for="inputName" class="form-label text-white"> Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Enter Name">
+                        </div>
+                        <div class="col-md-12 ">
+                            <label for="inputEmail" class="form-label text-white"> Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="someone@gmail.com">
+                        </div>
+                        <div class="col-md-12 ">
+                            <label for="textarea" class="form-label text-white"></label>
+                            <textarea class="form-control mt-3" placeholder="Leave your query here" id="textarea" style="height: 150px;"></textarea>
+                        </div>
+                        <br/>
+                        <div class="col-12 mt-1">
+                            <button class="btn btn-primary w-40" type="submit"> Send mail</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 p-3">
+                <div class="card rounder-3 shadow">
+                    <iframe class="p-1 rounded-3 w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15023.821334946975!2d96.10060903648505!3d19.71452570601229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c8bc52b3ad0a73%3A0x24d0a6bf17d863d4!2sJunction%20Nay%20Pyi%20Taw!5e0!3m2!1sen!2smm!4v1705249033653!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      <!-- Contact Section-->
+      <!-- Footer Section-->
+      <div class="container-fluid text-center p-3 mt-5 Footer-link">
+        <hr/>
+        <div class="row d-flex text-start  mx-5 footer_link_1">
+          <div class="col-4">
+            <h6 class="pb-3">SHOP AND LEARN </h6>
+           <p><a href="catagory-phone.html">iPhone</a></p>
+           <p><a href="catagory-mac.html">Mac</a></p>
+           <p><a href="catagory-ipad.html">iPad</a></p>
+           <p><a href="catagory-watch.html">Apple Watch</a></p>
+           <p><a href="catagory-airpods.html">AirPods</a></p>
+           <p><a href="catagory-accessories.html">Accessories</a></p>
+          </div>
+
+          <div class="col-4">
+            <h6 class="pb-3">SUPPORT</h6>
+            <p><a href="#">Delivery Policy</a></p>
+            <p><a href="#">Warranty Policy</a></p>
+            <p><a href="#">Trade in Policy</a></p>
+            <p><a href="#">Bank Information</a></p>
+          </div>
+
+          <div class="col-4">
+            <h6 class="pb-3">ABOUT</h6>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="catagory.html">Category</a></p>
+            <p><a href="product.html">Product</a></p>
+            <p><a href="contact.html">Contact</a></p>
+          </div>
+        </div>
+
+        <div class="row d-inline-block mb-3 ">
+          <a href="https://www.facebook.com"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/facebook--v1.png" alt="facebook--v1"/></a>
+          <a href="https://www.instagram.com"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/instagram-new.png" alt="instagram-new"/></a>
+          <a href="https://www.twitter.com"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/twitterx.png" alt="twitterx"/></a>
+        </div>
+
+        <div class="row">
+          <p>More ways to shop:Find <span class="shop-link-color">Our shop </span>near you.Or call 09 444 2222 21</p>
+        </div>
+        <hr/>
+
+        <div class="row footer_payments">
+          <div class="col fw-bold text-start">&copy;2024 Our Shop.All Rights Reserved.</div>
+
+          <div class="col text-end">
+            <span class="mx-3 text-center">Payment option:</span>
+            <img src="Images/footer_payments_update_nov.png" class="w-50" alt="payment option">
+          </div>
+        </div>
+      <!-- mobile view -->
+        <div class="row footer_payments_2">
+          <div class="col">
+            <span class=" text-start">Payment option:</span>
+            <p class="gy-3 mt-3"><img src="Images/footer_payments_update_nov.png" class="w-100" alt="payment option"></p>
+          </div>
+
+          <div class="col fw-bold text-center">&copy;2024 Our Shop.All Rights Reserved.</div>
+        </div>
+        <!-- /mobile view -->
+      </div>
+  <!-- Footer Section-->
+  <!-- End Coding Here-->
+  <script src="script.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

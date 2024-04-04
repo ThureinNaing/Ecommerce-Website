@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "i Phone-15 Pro Max (Dual Sim) 256Gb",
+        "storage":"256Gb",
+        "price": 1390,
+        
+        "image": "images/1.webp"
+    },
+    {
+        "id": 9,
+        "name": "M3 MacBook Pro 14-inch(2023) 512Gb",
+        "storage":"256Gb",
+        "price": 1780,
+        
+        "image": "images/9_macbook.WEBP"
+    },
+    {
+        "id": 32,
+        "name": "AirPod Max",
+        "price": 530,
+        "image": "images/32_airpodmax.WEBP"
+    }
+]

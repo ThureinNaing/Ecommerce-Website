@@ -1,0 +1,137 @@
+[{
+    "id": 33,
+    "name": "MagSafe Duo Charger",
+    "storage":"256Gb",
+    "price": 360,
+    
+    "image": "images/33_magsafe.WEBP"
+},
+{
+    "id": 34,
+    "name": "Chotech PD20W Fast Charging Power Bank",
+    "price": 28,
+    "image": "images/34_powerbank_magsafe.WEBP"
+},
+{
+    "id": 35,
+    "name": "COTECi universal Crystal Macbook Pro 16-inch Case",
+    "price": 14,
+    "image": "images/35_crystalcase.WEBP"
+},
+{
+    "id": 36,
+    "name": "Apple Pencil 1(with USB-C to Apple Pencil)",
+    "price": 110,
+    "image": "images/36_applepencil.WEBP"
+},
+{
+    "id": 37,
+    "name": "SAMDI Bamboo Monitor Stand for Macbook",
+    "price": 30,
+    "image": "images/37_bamboostand.WEBP"
+},
+{
+    "id": 38,
+    "name": "Protective for Magsafe for iPhone 15 Pro Max",
+    "price": 33,
+    "image": "images/38_protectivecase.WEBP"
+},
+{
+    "id": 39,
+    "name": "Bose SoundLink Flex Bluetooth Speaker",
+    "price": 163,
+    "image": "images/39_bosespeaker.WEBP"
+},
+{
+    "id": 40,
+    "name": "Bose SoundLink Revolve II Bluetooth Speaker",
+    "price": 235,
+    "image": "images/40_bosespeaker2.WEBP"
+},
+{
+    "id": 41,
+    "name": "Bose Noise Cancellation headphones 700",
+    "price": 360,
+    "image": "images/41_boseheadphone.WEBP"
+},
+{
+    "id": 42,
+    "name": "Case Studi Watch Strap Rovers",
+    "price": 14,
+    "image": "images/42_casewatch.WEBP"
+},
+{
+    "id": 43,
+    "name": "Harman/kardon Onyx Studio 8",
+    "storage":"256Gb",
+    "price": 222,
+    
+    "image": "images/43_harmanstudio8.WEBP"
+},
+{
+    "id": 44,
+    "name": "Sony WH-1000XM5 Noise Cancelling Headphones ",
+    "price": 360,
+    "image": "images/44_sonyheadphone.WEBP"
+},
+{
+    "id": 45,
+    "name": "Beats Studio Pro Wireless Headphones",
+    "price": 265,
+    "image": "images/45_beatstudioheadphone.WEBP"
+},
+{
+    "id": 46,
+    "name": "Beats Studio Buds+ (Release 2023)",
+    "price": 158,
+    "image": "images/46_beatsstudiobuds.WEBP"
+},
+{
+    "id": 47,
+    "name": "SwitchEasy AirTag Wrap Leather Case(Keyring)",
+    "price": 14,
+    "image": "images/47_airtagcase.WEBP"
+},
+{
+    "id": 48,
+    "name": "SwitchEasy Origami Nude Case For iPad Pro 12.9-inch",
+    "price": 30,
+    "image": "images/48_origaminudecase.WEBP"
+},
+{
+    "id": 49,
+    "name": "Tomatoc Laptop Handbag for Macbook 12-14inch",
+    "price": 30,
+    "image": "images/49_tomatochandbag.WEBP"
+},
+{
+    "id": 50,
+    "name": "Rhinoshield CrashGuard NX Case for AirPods 2",
+    "price": 25,
+    "image": "images/50_rhinoshiledcase.WEBP"
+},
+{
+    "id": 51,
+    "name": "Momax 2 in 1 MagSafe Wireless Charging Stand",
+    "price": 71,
+    "image": "images/51_momaxmagsafe.WEBP"
+},
+{
+    "id": 52,
+    "name": "Apple Original USB-C Power Adapter(70W)",
+    "price": 66,
+    "image": "images/52_applecharger.WEBP"
+},
+{
+    "id": 53,
+    "name": "Ringke Onyn Case for AirPods 3",
+    "price": 8,
+    "image": "images/53_ringkeairpodcase.WEBP"
+},
+{
+    "id": 54,
+    "name": "Logitech MX Master 3 for Mac (Black)",
+    "price": 125,
+    "image": "images/54_logitechmouse.WEBP"
+}
+]

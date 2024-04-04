@@ -1,0 +1,41 @@
+[
+    {
+        "id": 16,
+        "name": "M2 iPad Pro 12.9-inch (2022) 256Gb",
+        "storage":"256Gb",
+        "price":  1200,
+        
+        "image": "images/17_ipadpro.WEBP"
+    },
+    {
+        "id": 17,
+        "name": "M2 iPad Pro 11-inch (2022) 512Gb",
+        "price": 870,
+        "image": "images/M2-iPad-Pro-12_9-2022-Space-Gra.webp"
+    },
+    {
+        "id": 18,
+        "name": "M1 iPad Pro 12.9-inch (2021) 512Gb",
+        "price": 1120,
+        "image": "images/17_ipadpro.WEBP"
+    }
+    ,
+    {
+        "id": 19,
+        "name": "M1 iPad Pro 11-inch (2021) 256Gb",
+        "price": 855,
+        "image": "images/19_ipadpro.WEBP"
+    },
+    {
+        "id": 20,
+        "name": "iPad Mini 6<sup>th</sup> Gen 256Gb",
+        "price": 1000,
+        "image": "images/ipadmini-purple.webp"
+    },
+    {
+        "id": 21,
+        "name": "iPad Air 5 (eSim) 256Gb",
+        "price": 1150,
+        "image": "images/iPadAir5Starlight.jpg.webp"
+    }
+]
