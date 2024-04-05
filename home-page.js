@@ -97,7 +97,7 @@ function addCartToHTML(){
                 let newCart = document.createElement('div');
                 newCart.classList.add('item');
                 newCart.innerHTML = 
-                    `<div><img src="${product.image}"></div>
+                    `<div><img src="${product.image}" height="240"></div>
                     <div class="content">
                         <div class="name">${product.name}</div>
                         <div class="price">$${product.price} / 1 product</div>

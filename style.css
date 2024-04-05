@@ -463,6 +463,9 @@ h6{
 .nav---hidden{
     transform: translateY(calc(-1 * 100px));
 }
+.fontColorOfFooter{
+    color:white;
+}
 
  /* .nav,.nav2{
     background-image: linear-gradient(

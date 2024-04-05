@@ -40,7 +40,7 @@ function addDataToHTML(){
             let newProduct = document.createElement('div');
             newProduct.classList.add('item');
             newProduct.innerHTML = 
-            `<img src="${product.image}" class="mx-3" alt="">
+            `<div  class="mx-3"><img src="${product.image}" height="240"></div>
             <h2 class="mx-3">${product.name}</h2>
             <div class="price mx-3 mb-2">$${product.price}</div>
             <button onclick="addCart(${product.id})">Add To Cart</button>`;
